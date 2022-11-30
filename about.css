@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(190, 189, 189);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* background-color: blue; */
+}
+
+
+nav ul {
+    display: inline-flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+ul li {
+    list-style: none;
+    margin: .7rem;
+}
+
+
+li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.men {
+    margin: .5rem;
+    color: blue;
+}
+
+.cat {
+    /* width: 40%; */
+    margin: 2.5rem 5rem;
+}
+
+.cta {
+    font-size: 30px;
+    margin: 1.8rem;
+}
+
+.org {
+    margin: 6.8rem;
+}
+
+.hreo {
+    margin: 5rem;
+}
+
+h2 {
+    margin: 2rem;
+}
+
+.what {
+    margin: 2rem;
+    font-size: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: .5rem .5rem;
+    color: white;
+}
+
+.ami {
+    font-size: 30px;
+    margin: 2rem;
+}
+
+.gam, .tok {
+    font-size: 20px;
+    margin-left: 2rem;
+}
+
+img {
+    width: 10%;
+    margin: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+    .cat {
+        width: 80%;
+    }
+
+    img {
+        width: 40%;
+    }
+}
